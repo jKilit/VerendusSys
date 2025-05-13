@@ -1,0 +1,41 @@
+{
+  "name": "verendus-system",
+  "version": "1.0.0",
+  "description": "Vehicle inspection system for Verendus",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@apollo/server": "^4.12.0",
+    "@mui/icons-material": "^7.1.0",
+    "@types/body-parser": "^1.19.5",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.1",
+    "@types/express-fileupload": "^1.5.1",
+    "@types/uuid": "^10.0.0",
+    "apollo-server": "^3.13.0",
+    "apollo-server-express": "^3.12.1",
+    "body-parser": "^2.2.0",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "express-fileupload": "^1.5.1",
+    "graphql": "^16.11.0",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^2.0.0-rc.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  }
+}
