@@ -30,6 +30,7 @@ This will start the server in development mode with hot-reloading.
 2. Start the server:
 ```bash
 cd frontend
+npm install
 npm start
 ```
 
