@@ -10,11 +10,6 @@ A GraphQL-based system for managing vehicle inspections and registrations.
 - Update vehicle information from new data files
 - GraphQL API for querying and updating vehicle data
 
-## Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
 ## Installation
 
 1. Clone the repository
@@ -32,16 +27,9 @@ npm run dev
 ```
 
 This will start the server in development mode with hot-reloading.
-
-### Production Mode
-
-1. Build the application:
-```bash
-npm run build
-```
-
 2. Start the server:
 ```bash
+cd frontend
 npm start
 ```
 
@@ -77,7 +65,3 @@ Next Inspect.   Number  8       87
 Last Reg.       Number  8       95
 Monthly Reg.    Number  4       103
 ```
-
-## License
-
-ISC 
